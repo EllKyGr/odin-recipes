@@ -1,6 +1,11 @@
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .main {
     color: rgb(255, 187, 0);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
 }
 
@@ -12,12 +17,16 @@
 }
 
 .odin {
+    border-radius: .2em;
+    opacity: 0.8;
+}
+
+.index-card {
+    border: 3px solid darkred;
+    background-color: antiquewhite;
+    width: 450px;
+    border-radius:.5em;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: .9em;
-}
-
-.backgr {
-    background-color: rgb(76, 23, 126);
 }
